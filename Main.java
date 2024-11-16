@@ -287,7 +287,7 @@ public class Main{
 		
 		if (a!= 0){
 			double D = (b*b)-(4*a*c);
-			if (D<0){
+			if (D>0){
 				double D2 = Math.sqrt(D);
 				double x1 = (-b +D2)/2*a;
 				double x2 = (-b -D2)/2*a;
@@ -402,9 +402,31 @@ public class Main{
 				break;
 		} */
 		
-		/* char ch = scanner.next().charAt(0);
+	/* 	String b = scanner.nextLine();
 		
-		System.out.println(ch.toUpperCase()); */
+		switch (b){
+			case "a":
+				System.out.println("A");
+				break;
+			case "b":
+				System.out.println("B");
+				break;
+			case "c":
+				System.out.println("C");
+				break;
+			case "d":
+				System.out.println("D");
+				break;
+			case "e":
+				System.out.println("E");
+				break;
+			case "f":
+				System.out.println("F");
+				break;
+			default:
+				System.out.println("Ты чё-то перепутал");
+				break;
+		} */
 		
 		
 		/* int month = scanner.nextInt();
@@ -422,23 +444,110 @@ public class Main{
 		for (int i = 1; i <=m; i++){
 			System.out.println("1".repeat(n));
 		} */
-		
-		/* double z;
+	/* 	
+		int a,b,x;
+		double z;
 		a = scanner.nextInt();
 		b = scanner.nextInt();
 		z = scanner.nextDouble();
 		
-		int x = a%b;
+		x = a%b;
 		
 		if (x == 0){
 			System.out.println("0");
 		}else{
-			System.out.println(z/x);
+			double answ = (z/x);
+			System.out.println(answ);
 		}  */
 		
-		/* int length = scanner.nextInt();
-		int[] array = 
-		 */
+		/* int sum = 0;
+		int z = 0;
+		System.out.print("Введите длину массива: ");
+		int length = scanner.nextInt();
+		int[] array = new int[length];
+		
+		
+		System.out.println("Введите элементы массива");
+		for (int i = 0; i < length; i++){
+			array[i] = scanner.nextInt();
+		}
+		
+		for (int i = 0; i <length; i++){
+			if (array[i]%5==0 && array[i]%7!=0){
+				z+=1;
+				sum += array[i];
+			}
+		}
+		System.out.println("Число элементов: " +z+" Сумма элементов: " + sum); */
+		
+		/* double sum = 0;
+		System.out.print("Введите длину массива: ");
+		int length = scanner.nextInt();
+		Double[] array = new Double[length];
+		
+		System.out.println("Введите элементы массива");
+		for (int i = 0; i < length; i++){
+			array[i] = scanner.nextDouble();
+		}
+		
+		for (int i =0; i<length; i++){
+			if (array[i]>=0){
+				sum+=array[i];
+			}
+		}
+		System.out.println(sum*2); */
+		
+		/* int product = 1;
+		
+		System.out.print("Введите длину массива: ");
+		int length = scanner.nextInt();
+		Double[] array = new Double[length];
+		
+		System.out.println("Введите элементы массива");
+		for (int i = 0; i < length; i++){
+			array[i] = scanner.nextDouble();
+		}
+		for (int i = 0; i <length; i++){
+			if (array[i]%7==0){
+				product*=array[i];
+			}
+		}
+		System.out.println(product); */
+		
+		/* double a;
+		a = scanner.nextDouble();
+		
+		if (a<2 && a >=-2){
+			System.out.println(a*a);
+		} else{
+			System.out.println(4);
+		} */
+		/* double a;
+		a = scanner.nextDouble();
+		
+		
+		if (a<=2){
+			System.out.println(a*a+4*a+5);
+		} else{
+			System.out.println(1/(a*a+4*a+5));
+		} */
+		
+		/* double a = scanner.nextDouble();
+		
+		int n = scanner.nextInt();
+		
+		double x =1;
+		
+		System.out.println(Math.pow(a,n));
+		
+		for (int i = 1; i<=n; i++){
+			x*=(a+(i-1));
+			System.out.println(x);
+		}
+	 */
+		
+		
+		
 		
 	}
 }
