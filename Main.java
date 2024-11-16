@@ -532,11 +532,13 @@ public class Main{
 			System.out.println(1/(a*a+4*a+5));
 		} */
 		
-		/* double a = scanner.nextDouble();
+		double a = scanner.nextDouble();
 		
 		int n = scanner.nextInt();
 		
 		double x =1;
+		
+		double y = 0;
 		
 		System.out.println(Math.pow(a,n));
 		
@@ -544,10 +546,52 @@ public class Main{
 			x*=(a+(i-1));
 			System.out.println(x);
 		}
-	 */
+		
+		double sum = 0;
+        double denominator = a;
+        for (int i = 1; i <= n; i++) {
+            sum += 1 / denominator;
+            denominator *= (a + i);
+        }
+		System.out.println(sum);
+		
+		// 7
+		
+		/* int n = scanner.nextInt();
+		int sum = 0;
+		if (n>0 && n <=100){
+			System.out.println(String.valueOf(n).length());
+			int b = n;
+			while (b>0){
+				sum+= b%10;
+				b/=10;
+			}
+			System.out.println(sum);
+			System.out.println(String.valueOf(n).charAt(0));
+			if(n>=10){
+				System.out.println(String.valueOf(n).charAt(1));
+			}else{
+				System.out.println("n<10");
+			}
+		}else{
+			System.out.println("Ошибка");
+		} */
+		
+		/* System.out.print("Введите длину массива: ");
+		int length = scanner.nextInt();
+		int[] array = new int[length];
+		
+		for (int i = 0; i < length; i++){
+			int n = 2;
+			array[i] = 1+2;
+			int b  = 4;
+			array[i+1] = array[i] -b;
+		}
 		
 		
-		
+		for (int arr : array){
+            System.out.println(arr);
+        } */
 		
 	}
 }
