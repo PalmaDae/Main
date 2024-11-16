@@ -281,9 +281,9 @@ public class Main{
 		
 	/* 	double a,b,c;
 		
-		a = 2;
-		b = 6;
-		c = 2;
+		a = scanner.nextDouble;
+		b = scanner.nextDouble;
+		c = scanner.nextDouble;
 		
 		if (a!= 0){
 			double D = (b*b)-(4*a*c);
@@ -319,6 +319,126 @@ public class Main{
 		System.out.println("Число оказалось меньше");
 		 
 		 
+		*/
+		
+		/* System.out.print("Введите длину массива: ");
+		int length = scanner.nextInt();
+		int[] array = new int[length];
 		 */
+		
+	/* 	System.out.println("Введите элементы массива");
+		for (int i = 0; i < length; i++){
+			array[i] = scanner.nextInt();
+		}
+		 */
+ 		/* for (int i =0; i <length; i++){
+			array[i] = random.nextInt(100);
+		}
+		
+		for (int i = 0; i <length; i++){
+			System.out.println("array[" + (i+1) + "] = " + array[i]);
+		}
+ 		
+		for (int arr : array){
+			System.out.print(arr);
+		} */
+		
+	/* 	int k = scanner.nextInt();
+		
+		switch (k){
+			case 1:
+				System.out.println("плохл");
+				break;
+			case 2:
+				System.out.println("неудол");
+				break;
+			case 3:
+				System.out.println("удол");
+				break;
+			case 4:
+				System.out.println("хорошо");
+				break;
+			case 5:
+				System.out.println("отлично");
+				break;
+			default:
+				System.out.println("ошибка");
+				break;
+		} */
+		
+		/* int time = scanner.nextInt();
+		
+		if (time>=5 && time <12){
+			System.out.println("Доброе утро");
+		} else if (time >= 12 && time <16){
+			System.out.println("Добрый день");
+		} else if (time >= 16 && time <20){
+			System.out.println("Добрый вечер");
+		} else if (time >= 20 && time <24){
+			System.out.println("Доброй ночи");
+		} else{
+			System.out.println("Мне кажется ты чё-то перепутал");
+		} */
+		
+		/* double x = scanner.nextDouble();
+		System.out.print("Введите номер действия: ");
+		int k = scanner.nextInt();
+		
+		switch (k){
+			case 1:
+				System.out.println(x*x);
+				break;
+			case 2:
+				System.out.println(Math.sqrt(x));
+				break;
+			case 3:
+				System.out.println(Math.sin(Math.toRadians(x)));
+				break;
+			case 4:
+				System.out.println(Math.cos(Math.toRadians(x)));
+				break;
+			default:
+				System.out.println("Мне кажется ты что-то перепутал");
+				break;
+		} */
+		
+		/* char ch = scanner.next().charAt(0);
+		
+		System.out.println(ch.toUpperCase()); */
+		
+		
+		/* int month = scanner.nextInt();
+		if (month>= 1 && month <= 12){
+			System.out.println(12-month+1);
+		} else{
+			System.out.println("Ыааа");
+		} */
+		
+		/* int n, m;
+		n = scanner.nextInt();
+		m = scanner.nextInt();
+		
+		
+		for (int i = 1; i <=m; i++){
+			System.out.println("1".repeat(n));
+		} */
+		
+		/* double z;
+		a = scanner.nextInt();
+		b = scanner.nextInt();
+		z = scanner.nextDouble();
+		
+		int x = a%b;
+		
+		if (x == 0){
+			System.out.println("0");
+		}else{
+			System.out.println(z/x);
+		}  */
+		
+		/* int length = scanner.nextInt();
+		int[] array = 
+		 */
+		
 	}
 }
