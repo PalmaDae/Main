@@ -532,7 +532,7 @@ public class Main{
 			System.out.println(1/(a*a+4*a+5));
 		} */
 		
-		double a = scanner.nextDouble();
+		/* double a = scanner.nextDouble();
 		
 		int n = scanner.nextInt();
 		
@@ -553,7 +553,7 @@ public class Main{
             sum += 1 / denominator;
             denominator *= (a + i);
         }
-		System.out.println(sum);
+		System.out.println(sum); */
 		
 		// 7
 		
@@ -592,6 +592,10 @@ public class Main{
 		for (int arr : array){
             System.out.println(arr);
         } */
+		
+		
+		
+		
 		
 	}
 }
