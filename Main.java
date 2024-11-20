@@ -593,7 +593,33 @@ public class Main{
             System.out.println(arr);
         } */
 		
+		/* int length = scanner.nextInt();
+		double[] array = new double[length];
 		
+		for (int i = 0; i < length; i ++){
+			array[i] = scanner.nextDouble();
+		}
+		
+		for (int i = 0; i < length; i++){
+			if (array[i] <0){
+				array[i]+=0.5;
+			}else{
+				array[i] = 0.1;
+			}
+			System.out.println(array[i]);
+		} */
+		
+		/* int length = scanner.nextInt();
+		int[] array = new int[length];
+		
+		for (int i = 0; i<length; i++){
+			if(i%2==0){
+				array[i] = (length-4)+(2*i);
+			}else{
+				array[i] = (-1) *((length-4)+(i*2));
+			}
+			System.out.println(array[i]);
+		} */
 		
 		
 		
