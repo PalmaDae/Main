@@ -621,7 +621,40 @@ public class Main{
 			System.out.println(array[i]);
 		} */
 		
+		/* int age = scanner.nextInt();
+		String n = String.valueOf(age);
+		String b = "" + n.charAt(n.length()-1);
+		int c = Integer.parseInt(b);
 		
+		if (age>=0&&age<=100){
+			if (c == 1){
+				System.out.println(n + " год");
+			}else if(c>=2 && c<5){
+				System.out.println(n + " года");
+			}else{
+				System.out.println(n + " лет");
+			}
+		}else{
+			System.out.println("Слишком старый");
+		} */
+		
+		double x = scanner.nextDouble();
+		
+	/* 	if (x<=0){
+			System.out.println(0);
+		}else if(x>0&&x<=1){
+			System.out.println(x);
+		}else{
+			System.out.println(Math.pow(x,4));
+		} */
+		
+		if (x<=0){
+			System.out.println(0);
+		}else if(x>0&&x<=1){
+			System.out.println(Math.pow(x,2) - x);
+		}else{
+			System.out.println(Math.pow(x,2)-Math.sin(Math.PI*x	));
+		}
 		
 	}
 }
