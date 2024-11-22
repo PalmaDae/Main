@@ -656,7 +656,7 @@ public class Main{
 			System.out.println(Math.pow(x,2)-Math.sin(Math.PI*x	));
 		} */
 		
-		
+	/* 	
 		double PI = 3.141592653589793;
 		
 		int n,m;
@@ -670,7 +670,25 @@ public class Main{
 			System.out.println(m*10+" "+n);
 		}else{
 			System.out.println(m+" "+n*2);
+		} */
+		
+	/* 	int length = scanner.nextInt();
+		int[] array = new int[length];
+		int n = 0;
+		
+		for (int i = 0; i < length; i ++){
+			array[i] = scanner.nextInt();
 		}
+		
+		
+		for (int i = 0; i < length; i++){
+			if (String.valueOf(array[i]).length() ==5 || String.valueOf(array[i]).length() ==3 ){
+				n+=1;
+			}
+				
+		} 
+		System.out.println(n); */
+		
 		
 	}
 }
