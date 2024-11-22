@@ -638,7 +638,7 @@ public class Main{
 			System.out.println("Слишком старый");
 		} */
 		
-		double x = scanner.nextDouble();
+	/* 	double x = scanner.nextDouble(); */
 		
 	/* 	if (x<=0){
 			System.out.println(0);
@@ -648,13 +648,22 @@ public class Main{
 			System.out.println(Math.pow(x,4));
 		} */
 		
-		if (x<=0){
+	/* 	if (x<=0){
 			System.out.println(0);
 		}else if(x>0&&x<=1){
 			System.out.println(Math.pow(x,2) - x);
 		}else{
 			System.out.println(Math.pow(x,2)-Math.sin(Math.PI*x	));
-		}
+		} */
+		
+		
+		double PI = 3.141592653589793;
+		
+		int n,m;
+		n = scanner.nextInt();
+		m = scanner.nextInt();
+		
+		
 		
 	}
 }
