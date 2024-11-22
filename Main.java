@@ -662,8 +662,15 @@ public class Main{
 		int n,m;
 		n = scanner.nextInt();
 		m = scanner.nextInt();
+		double n_m = n/m;
+		double m_n = m/n;
 		
 		
+		if (Math.abs(PI - m/n) < Math.abs(PI - n/m)){
+			System.out.println(m*10+" "+n);
+		}else{
+			System.out.println(m+" "+n*2);
+		}
 		
 	}
 }
